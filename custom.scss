@@ -1,0 +1,147 @@
+$theme-colors: (
+  primary: rgb(139, 193, 2),
+  secondary: rgba(30, 173, 30, 0.94),
+);
+
+$gray: gray;
+
+.bg-darko {
+  background-color: #1c1a19;
+}
+.bg-en {
+  background: #ff6b00;
+  color: #f4f1f0;
+  border: none;
+}
+
+.h1-color {
+  color: #f55800;
+  margin-top: 208px;
+}
+
+.h3-color {
+  color: #f4f1f0;
+}
+
+nav ul{
+  position: absolute;
+  right: 100px;
+}
+
+.bg-hover {
+  background: #fff5e1;
+}
+
+.p-color1 {
+  color: #091e42;
+}
+
+.p-color2 {
+  color: #f4f5f7;
+  margin-bottom: 251px;
+}
+
+.h-line {
+  height: 1px;
+}
+
+.form-color {
+  color: #3c3a39;
+  background: #fbf8f8;
+}
+
+.nav-color {
+  background: #3e3c3c;
+}
+
+.header-menu {
+  display: none;
+}
+
+.menu-option {
+  width: 16px;
+  height: 12px;
+}
+
+.title-line {
+  display: flex;
+  flex-direction: column;
+  margin-top: 135px;
+}
+
+.text-flex {
+  margin-left: 24px;
+}
+
+
+@media screen and (max-width: 767px){
+  .image-section2 {
+
+    margin-top: 0;
+    height: auto;
+    max-width: 327px;
+  }
+}
+
+.align-img-flex {
+  margin-top: 124px;
+}
+
+.buttonL {
+  padding: 10px 12px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  background: #fff;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+}
+
+.buttonEn {
+  box-sizing: border-box;
+  background: #ff6b00;
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 6px 10px 6px 0;
+  padding: 10px 12px 10px 12px;
+  align-self: start;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-option {
+    display: none;
+  
+  }
+
+  .image-section2 {
+
+    margin-top: 0;
+    width: calc(100vw * 0.475) !important;
+    height: calc(100vw * 0.311111);
+  }
+
+  .title-line {
+    flex-direction: row;
+  }
+
+  .header-menu {
+    font-size: 15px;
+    color: #344563;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap";
